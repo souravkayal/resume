@@ -734,6 +734,18 @@
 
         </div>
     </div>
+
+    <br /><br /><br /><br /><br />
+
+    <div class="container">
+        <div class="sections">
+            <br /><br /><br />
+            <span style="font-size: 16px; margin-top: 20px;">Coded by <a href="https://newtodesign.com/">New to design
+                </a>
+                Draft by <a href="#">Surav Kayal</a></span>
+        </div>
+    </div>
 </body>
+
 
 </html>
