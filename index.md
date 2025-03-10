@@ -344,6 +344,10 @@
             font-size: 16px;
         }
 
+        #main_content_wrap {
+            background-color: white;
+        }
+
         /* Achievements ends */
 
         /* Timeline styles*/
@@ -462,6 +466,10 @@
 
         .inner {
             max-width: none;
+        }
+
+        h2 {
+            background: none;
         }
 
         /*timeline ends*/
@@ -618,7 +626,6 @@
         </ol>
 
     </div>
-    <br/>
 
     <!-- Skills and intrest section -->
     <div class="container">
