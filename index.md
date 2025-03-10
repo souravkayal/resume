@@ -453,6 +453,10 @@
             display: block;
         }
 
+        div .inner {
+            width: 100%;
+        }
+
         /*timeline ends*/
 
         /* Media queries*/
