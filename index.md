@@ -453,10 +453,9 @@
             display: block;
         }
 
-        .inner {
-            width: 100%;
+        #header_wrap {
+            display: none;
         }
-
         /*timeline ends*/
 
         /* Media queries*/
