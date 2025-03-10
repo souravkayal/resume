@@ -456,6 +456,11 @@
         #header_wrap {
             display: none;
         }
+
+        section .inner {
+            max-width: none;
+        }
+        
         /*timeline ends*/
 
         /* Media queries*/
