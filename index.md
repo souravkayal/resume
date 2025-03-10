@@ -671,7 +671,7 @@
 
             <div class="list-card">
                 <div>
-                    <h3>Patient (in-progress)</h3>
+                    <h3>Patent (in-progress)</h3>
                     <span>Building Industrial Knowledge Graph</span> <br /><br />
                     <span>Mapping multiple asset moldel in uniformed visualization</span>
                 </div>
