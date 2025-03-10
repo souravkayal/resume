@@ -2,674 +2,720 @@
 <html>
 
 <head>
-    <title>My Resume</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Minimal Resume Template</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-        @charset "utf-8";
-        @import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
-        @import url('https://fonts.googleapis.com/css?family=Roboto');
-        /*=============================================
-Css Indexing
-===============================================
-1 Base CSS
+        /*Load google font*/
+        @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 
-===============================================*/
+        /* Reset Styles */
 
-
-
-
-
-        /*===========================================
-Base CSS
-============================================*/
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
         h1,
         h2,
         h3,
         h4,
         h5,
-        h6 {}
-
-        html {
-            height: 100%;
-        }
-
-        body {
-            height: 100%;
-            font-family: 'Quicksand', sans-serif;
-            color: rgba(0, 0, 0, 0.6);
-            box-sizing: border-box;
-            font-size: 14px;
-            overflow: hidden;
-            background: #fafafa;
-        }
-
-        label {
-            padding: 0;
-            margin: 0;
-        }
-
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
         ul,
         li,
-        ol {
-            padding: 0;
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
             margin: 0;
-        }
-
-        li {
-            list-style: none;
-        }
-
-        a,
-        img {
+            padding: 0;
             border: 0;
-            outline: none;
-            text-decoration: none;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
         }
 
-        input::-moz-focus-inner {
-            border: 0;
-        }
-
-        bo {
-            outline: none;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            vertical-align: bottom;
-        }
-
-        input,
-        select,
-        textarea,
-        button {
-            font-family: 'Muli', sans-serif;
-        }
-
-        input:focus,
-        select:focus,
-        textarea:focus,
-        button:focus {
-            outline: 0;
+        /* HTML5 display-role reset for older browsers */
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
         }
 
         a {
-            color: inherit;
-            -webkit-transition: 0.5s;
-            -o-transition: 0.5s;
-            transition: 0.5s;
+            text-decoration: none;
+            text-transform: none;
+            color: #4a90e2;
         }
 
+        body {
+            line-height: 1;
+            font-family: lato, ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI,
+                Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            font-size: 19px;
+            background-color: #fefefe;
+            color: #04143a;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: "";
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
 
         p {
-            margin-bottom: 1.5em;
+            color: #15171a;
+            font-size: 17;
+            line-height: 31px;
         }
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            color: #000;
-            font-family: "Quicksand", Arial, sans-serif;
-            font-weight: 400;
-            margin: 0 0 30px 0;
-        }
-
-
-        i.material-icons {
-            font-size: inherit;
-            line-height: inherit;
-        }
-
-        ::-webkit-scrollbar-track {
-            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-            background-color: #F5F5F5;
-        }
-
-        ::-webkit-scrollbar {
-            width: 5px;
-            height: 5px;
-            background-color: #F5F5F5;
-        }
-
-        ::-webkit-scrollbar-thumb {
-
-            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-            background-color: #777;
-        }
-
-        /*===========================================
-Text Styles CSS
-============================================*/
-        .t-title-size {
-            font-size: 18px;
-        }
-
-        .t-bold {
+        strong {
             font-weight: 600;
         }
 
-        .t-normal {
-            font-weight: normal;
+        div,
+        footer {
+            box-sizing: border-box;
         }
 
-        .t-center {
-            text-align: center;
-        }
+        /* Reset ends */
 
-        .t-right {
-            text-align: right;
-        }
-
-
-
-        /*===========================================
-Padding & Margins CSS
-============================================*/
-        .p-5 {
-            padding: 5px;
-        }
-
-        .p-10 {
-            padding: 10px;
-        }
-
-        .p-15 {
-            padding: 15px;
-        }
-
-        .p-20 {
-            padding: 20px;
-        }
-
-        .p-25 {
-            padding: 25px;
-        }
-
-        .p-30 {
-            padding: 30px;
-        }
-
-        .p-35 {
-            padding: 35px;
-        }
-
-        .p-40 {
-            padding: 40px;
-        }
-
-        .p-45 {
-            padding: 45px;
-        }
-
-        .p-50 {
-            padding: 50px;
-        }
-
-        .p-right5 {
-            padding-right: 5px;
-        }
-
-        .p-right10 {
-            padding-right: 10px;
-        }
-
-        .p-right15 {
-            padding-right: 15px;
-        }
-
-        .p-right20 {
-            padding-right: 20px;
-        }
-
-        .p-right25 {
-            padding-right: 25px;
-        }
-
-        .p-right30 {
-            padding-right: 30px;
-        }
-
-        .p-left5 {
-            padding-left: 5px;
-        }
-
-        .p-left10 {
-            padding-left: 10px;
-        }
-
-        .p-left15 {
-            padding-left: 15px;
-        }
-
-        .p-left20 {
-            padding-left: 20px;
-        }
-
-        .p-left25 {
-            padding-left: 25px;
-        }
-
-        .p-left30 {
-            padding-left: 30px;
-        }
-
-        .m-5 {
-            margin: : 5px;
-        }
-
-        .m-10 {
-            margin: 10px;
-        }
-
-        .m-15 {
-            margin: 15px;
-        }
-
-        .m-20 {
-            margin: 20px;
-        }
-
-        .m-25 {
-            margin: 25px;
-        }
-
-        .m-30 {
-            margin: 30px;
-        }
-
-        .m-35 {
-            margin: 35px;
-        }
-
-        .m-40 {
-            margin: 40px;
-        }
-
-        .m-45 {
-            margin: 45px;
-        }
-
-        .m-50 {
-            margin: 50px;
-        }
-
-        /*===========================================
-Display Styles
-============================================*/
-        .d-flex {
-            display: flex;
-        }
-
-        .d-flex-align-center {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-        }
-
-        .d-flex-align-center-column {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        .flex-1 {
-            flex: 1;
-        }
-
-        .flex-2 {
-            flex: 2;
-        }
-
-
-
-        /*===========================================
-Page Styles
-============================================*/
-
-        .wraper {
-            width: 100%;
-            height: 100%;
-        }
-
+        /*Hero section*/
 
         .container {
-            height: 100%;
-            display: flex;
-            flex-direction: row;
+            max-width: 1100px;
+            height: auto;
+            margin: 60px auto;
         }
 
-        .left-content {
-            width: 300px;
-            overflow-y: auto;
-            height: 100%;
-            background: #fff;
-            border-right: 1px solid rgba(221, 221, 221, 0.38);
-            display: flex;
-            flex-direction: column;
-        }
-
-        .main-content {
-            flex: 1;
-            overflow-y: auto;
-            margin-left: 10px;
-            background: #fff;
-            border-left: 1px solid rgba(221, 221, 221, 0.38);
-        }
-
-        .logo {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .logo a {
-            color: #fff;
-            text-align: right;
-            background: #000;
-            display: flex;
-            flex-direction: column;
-            padding: 10px;
-            font-size: 20px;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            line-height: 30px;
-            font-weight: 500;
-        }
-
-        .nav {
-            flex: 1;
-            /* display: flex; */
-            justify-content: flex-end;
-            margin: 50px 0px;
-        }
-
-        .nav ul li,
-        .nav ul li a {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .nav ul li a {
-            padding: 8px 0px;
-            text-transform: uppercase;
-            color: rgba(0, 0, 0, 0.4);
-            letter-spacing: 1px;
-            font-weight: 500;
+        .hero {
+            margin: 50px auto;
             position: relative;
         }
 
-        .nav ul li a:hover {
-            color: #000;
+        h1.name {
+            font-size: 70px;
+            font-weight: 300;
+            display: inline-block;
         }
 
-        .nav ul li a:after {
-            content: "";
-            width: 0;
-            height: 1px;
-            background: #000;
-            position: absolute;
-            bottom: 5px;
-            left: 0;
-            right: 0;
-            -webkit-transform: scaleX(0);
-            -moz-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-            -o-transform: scaleX(0);
-            transform: scaleX(0);
-            -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-        }
-
-        .nav ul li a:hover:after {
-            width: 100%;
-            -webkit-transform: scaleX(1);
-            -moz-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-            -o-transform: scaleX(1);
-            transform: scaleX(1);
-        }
-
-        .left-footer {
-            color: rgba(0, 0, 0, 0.6);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-        }
-
-        .foot-contact,
-        .social-icons ul,
-        .copy-rights {
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .social-icons ul li {
-            display: flex;
-            justify-content: flex-end;
-            flex-direction: row;
-        }
-
-        .foot-contact ul {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .foot-contact ul li {
-            justify-content: flex-end;
-            display: flex;
-            margin: 2px 0px;
-        }
-
-        .foot-contact {
-            margin: 5px 0px;
-        }
-
-
-
-        .social-icons ul li a {
-            padding: 5px 8px;
-            font-size: 16px;
-        }
-
-
-        .social-icons ul li a:hover {
-            color: #000;
-            transform: scale(1.2) translateY(-5px);
-        }
-
-        .user-profile {
-            padding-left: 50px;
-        }
-
-        .sm-text {
-            letter-spacing: 2.1px;
-            font-weight: normal;
-            color: #222222;
-            font-size: 14px;
-            font-family: "Roboto", sans-serif;
-            text-transform: uppercase;
-        }
-
-        .name {
-            font-size: 40px;
-            text-transform: uppercase;
-            margin: 15px 0px;
-            color: #222222;
-            font-family: "Roboto", sans-serif;
+        .job-title {
+            vertical-align: top;
+            background-color: #d9e7f8;
+            color: #4a90e2;
             font-weight: 600;
+            margin-top: 5px;
+            margin-left: 20px;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 15px 25px;
         }
 
-        .role {
-            font-size: 18px;
-            font-weight: 500;
-            font-family: "Roboto", sans-serif;
-            text-transform: uppercase;
-            margin-bottom: 20px;
-            color: #222222;
+        .email {
+            display: block;
+            font-size: 24px;
+            font-weight: 300;
+            color: #81899c;
+            margin-top: 10px;
         }
 
-        .text {
-
-            font-size: 15px;
+        .lead {
+            font-size: 44px;
+            font-weight: 300;
+            margin-top: 60px;
+            line-height: 55px;
         }
 
-        .pr-list {
-            margin: 30px 0px;
+        /*hero ends*/
 
+        /*skills & intrests*/
+
+        .sections {
+            vertical-align: top;
+            display: inline-block;
+            width: 49.7%;
+            height: 50px;
         }
 
-        .pr-list ul li {
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .list-card {
+            margin: 30px 0;
+        }
+
+        .list-card .exp,
+        .list-card div {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .list-card .exp {
+            margin-right: 15px;
+            color: #4a90e2;
+            font-weight: 600;
+            width: 100px;
+        }
+
+        .list-card div {
+            width: 70%;
+        }
+
+        .list-card h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #5b6a9a;
+            line-height: 26px;
             margin-bottom: 8px;
         }
 
-        .pr-list ul li i {
-            width: 18px;
+        .list-card div span {
+            font-size: 16px;
+            color: #81899c;
+            line-height: 22px;
         }
 
-        .social-icons-head ul {
-            display: flex;
-        }
+        /*skill and intrests ends*/
 
-        .social-icons-head ul li a {
-            padding: 5px 10px;
-            font-size: 22px;
-            transition: all .3s;
-            display: flex;
-        }
+        /* Achievements */
 
-        .social-icons-head {}
-
-        .social-icons-head ul li:nth-child(1) a {
-            padding-left: 0;
-        }
-
-        .social-icons-head ul li a:hover {
-            color: #000;
-            transform: scale(1.2) translateY(-5px);
-        }
-
-        .sec-title {
-            margin-bottom: 50px;
-        }
-
-        .pg-title {
-            font-size: 18px;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            line-height: 1.8;
-            color: #000;
-        }
-
-        .pg-sub-title {
-            margin-bottom: 10px;
+        .cards {
+            max-width: 1120px;
             display: block;
-            font-size: 10px;
-            text-transform: uppercase;
-            color: #999999;
-            font-weight: 500;
-            letter-spacing: 5px;
+            margin-top: 280px;
+        }
+
+        .card {
+            width: 47.9%;
+            height: 200px;
+            background-color: #eef0f7;
+            display: inline-block;
+            margin: 7px 5px;
+            vertical-align: top;
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .card-active,
+        .card:hover {
+            transform: scale(1.02);
+            transition: 0.5s;
+            background-color: #fff;
+            box-shadow: 0px 5px 50px -8px #ddd;
+            cursor: pointer;
+        }
+
+        .skill-level {
+            display: inline-block;
+            max-width: 160px;
+        }
+
+        .skill-level span {
+            font-size: 35px;
+            font-weight: 300;
+            color: #5b6a9a;
+            vertical-align: top;
+        }
+
+        .skill-level h2 {
+            font-size: 95px;
+            font-weight: 300;
+            display: inline-block;
+            vertical-align: top;
+            color: #5b6a9a;
+            letter-spacing: -5px;
+        }
+
+        .skill-meta {
+            vertical-align: top;
+            display: inline-block;
+            max-width: 300px;
+            text-align: left;
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        .skill-meta h3 {
+            font-size: 20px;
+            font-weight: 800;
+            color: #5b6a9a;
+            margin-bottom: 5px;
+        }
+
+        .skill-meta span {
+            color: #81899c;
+            line-height: 20px;
+            font-size: 16px;
+        }
+
+        /* Achievements ends */
+
+        /* Timeline styles*/
+
+        ol {
+            position: relative;
+            display: block;
+            margin: 100px 0;
+            height: 2px;
+            background: #eef0f7;
+        }
+
+        ol::before,
+        ol::after {
+            content: "";
+            position: absolute;
+            top: -10px;
+            display: block;
+            width: 0;
+            height: 0;
+            border-radius: 10px;
+            border: 0px solid #31708f;
+        }
+
+        ol::before {
+            left: -5px;
+        }
+
+        ol::after {
+            right: -10px;
+            border: 0px solid transparent;
+            border-right: 0;
+            border-left: 20px solid #31708f;
+            border-radius: 3px;
+        }
+
+        /* ---- Timeline elements ---- */
+        li {
+            position: relative;
+            display: inline-block;
+            float: left;
+            width: 25%;
+            height: 50px;
+        }
+
+        li .line {
+            position: absolute;
+            top: -47px;
+            left: 1%;
+            font-size: 20px;
+            font-weight: 600;
+            color: #04143a;
+        }
+
+        li .point {
+            content: "";
+            top: -7px;
+            left: 0%;
+            display: block;
+            width: 8px;
+            height: 8px;
+            border: 4px solid #fff;
+            border-radius: 10px;
+            background: #4a90e2;
+            position: absolute;
+        }
+
+        li .description {
+            display: none;
+            padding: 10px 0;
+            margin-top: 20px;
+            position: relative;
+            font-weight: normal;
+            z-index: 1;
+            max-width: 95%;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 25px;
+            color: #5b6a9a;
+        }
+
+        .description::before {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid #f4f4f4;
+            position: absolute;
+            top: -5px;
+            left: 43%;
+        }
+
+        .timeline .date {
+            font-size: 14px;
+            color: #81899c;
+            font-weight: 300;
+        }
+
+        /* ---- Hover effects ---- */
+        li:hover {
+            color: #48a4d2;
+        }
+
+        li .description {
+            display: block;
+        }
+
+        /*timeline ends*/
+
+        /* Media queries*/
+
+        @media (max-width: 1024px) {
+            .container {
+                padding: 15px;
+                margin: 0px auto;
+            }
+
+            .cards {
+                margin-top: 250px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                margin: 0px auto;
+            }
+
+            .cards {
+                margin-top: 320px;
+            }
+
+            .card {
+                padding: 15px;
+                text-align: left;
+            }
+
+            .card h2 {
+                font-size: 70px;
+            }
+
+            .card,
+            .sections {
+                width: 100%;
+                height: auto;
+                margin: 10px 0;
+                float: left;
+            }
+
+            .timeline {
+                border: none;
+                background-color: rgba(0, 0, 0, 0);
+            }
+
+            .timeline li {
+                margin-top: 70px;
+                height: 150px;
+            }
+        }
+
+        @media (max-width: 425px) {
+            h1.name {
+                font-size: 40px;
+            }
+
+            .card,
+            .sections {
+                width: 100%;
+                height: auto;
+                margin: 10px 0;
+                float: left;
+            }
+
+            .timeline {
+                display: none;
+            }
+
+            .job-title {
+                position: absolute;
+                font-size: 15px;
+                top: -40px;
+                right: 20px;
+                padding: 10px;
+            }
+
+            .lead {
+                margin-top: 15px;
+                font-size: 20px;
+                line-height: 28px;
+            }
+
+            .container {
+                margin: 0px;
+                padding: 0 15px;
+            }
+
+            footer {
+                margin-top: 2050px;
+            }
         }
     </style>
 
 </head>
 
 <body>
-    <div class="wraper">
-        <div class="container">
-            <div class="left-content p-30">
-                <div class="logo">
-                    <a href="index.html">
-                        <span>My</span>
-                        <span>Resume</span>
-                    </a>
-                </div>
-                <div class="nav">
-                    <ul>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="">Work Profile</a></li>
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">Education</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="left-footer">
-                    <div class="social-icons">
-                        <ul>
-                            <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                    <div class="foot-contact">
-                        <ul>
-                            <li>xxxxxxxxxxx@gmail.com</li>
-                            <li>+91 90000XXXXX / 90XXXXXXXX</li>
-                        </ul>
-                    </div>
 
-                    <div class="copy-rights">Copyright &copy;2019 All rights reserved</div>
-                </div>
+    <div class="container">
+        <div class="hero">
+            <h1 class="name"><strong>John</strong> Doe</h1>
+            <span class="job-title">Developer</span>
+            <span class="email">abbie.bradley@gmail.com</span>
 
+            <h2 class="lead">Development and design of web applications for startups and large companies</h2>
+        </div>
+    </div>
+
+    <!-- Skills and intrest section -->
+    <div class="container">
+
+        <div class="sections">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="list-card">
+                <span class="exp">+ 5 years</span>
+                <div>
+                    <h3>Object programming & frameworks</h3>
+                    <span>PHP, Symfony, Laravel, Silex, …</span>
+                </div>
             </div>
-            <div class="main-content">
-                <div class="section1 p-30" id="Home">
-                    <div class="sec-title">
-                        <div class="pg-sub-title">Home</div>
-                        <div class="pg-title">My Profile</div>
-                    </div>
-                    <div class="d-flex-align-center">
-                        <div class="user-img flex-1"><img
-                                src="https://colorlib.com/preview/theme/meetme/img/personal.jpg"></div>
-                        <div class="user-profile flex-1">
-                            <div class="pro-details">
-                                <div class="sm-text">HELLO EVERYBODY, I AM</div>
-                                <div class="name">Pavan Ramshetty</div>
-                                <div class="role">UI Developer</div>
 
-                            </div>
-                            <div class="text">You will begin to realise why this exercise is called the Dickens Pattern
-                                (with reference to the ghost showing Scrooge some different futures)</div>
-                            <div class="pr-list">
-                                <ul>
-                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 14th May, 1992</li>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i> 90000XXXXX / 90XXXXXXXX</li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> xxxxxxxxxxxxxx@gmail.com</li>
-                                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> Hyderabad, Telangana</li>
-                                </ul>
-                            </div>
-                            <div class="social-icons-head">
-                                <ul>
-                                    <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
+            <div class="list-card">
+                <span class="exp">+ 3 years</span>
+                <div>
+                    <h3>Design integration</h3>
+                    <span>Style and tools, JS Frameworks</span>
                 </div>
+            </div>
 
+            <div class="list-card">
+                <span class="exp">+ 6 years</span>
+                <div>
+                    <h3>Linux</h3>
+                    <span>Scripting, Servers management and protocols, Automation</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="sections">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="list-card">
+                <div>
+                    <h3>Scripting languages</h3>
+                    <span>PHP, JS, Bash, Python</span>
+                </div>
+            </div>
+
+            <div class="list-card">
+                <div>
+                    <h3>Hacking</h3>
+                    <span>Linux, Crawlers, Bots, Network</span>
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- Achievements -->
+
+    <div class="container cards">
+
+        <div class="card">
+            <div class="skill-level">
+                <span>+</span>
+                <h2>60</h2>
+            </div>
+
+            <div class="skill-meta">
+                <h3>Projects</h3>
+                <span>Adapting and creating solutions for customer's needs</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="skill-level">
+                <h2>50</h2>
+                <span>%</span>
+            </div>
+
+            <div class="skill-meta">
+                <h3>Web</h3>
+                <span>Applications development integrating third-party services and mobile client(s)</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="skill-level">
+                <h2>30</h2>
+                <span>%</span>
+            </div>
+
+            <div class="skill-meta">
+                <h3>Technical solutions</h3>
+                <span>Such as web services, scripts, configurations</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="skill-level">
+                <h2>20</h2>
+                <span>%</span>
+            </div>
+
+            <div class="skill-meta">
+                <h3>Leading</h3>
+                <span>Web projects and ensure the quality of delivery</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Timeeline -->
+
+    <div class="container">
+        <ol class="timeline">
+            <li>
+                <p class="line">Experiences</p>
+                <span class="point"></span>
+                <p class="description">
+                    Lead Developer @Geronimo
+                </p>
+                <span class="date">Today - Apr. 2016</span>
+            </li>
+
+            <li>
+                <span class="point"></span>
+                <p class="description">
+                    Freelance
+                </p>
+                <span class="date">Apr. 2016 - Sep. 2015</span>
+            </li>
+
+            <li>
+                <p class="line">Education</p>
+                <span class="point"></span>
+                <p class="description">
+                    DUT "Métiers du multimédia et de l'internet"
+                </p>
+                <span class="date">2015 - 2013</span>
+            </li>
+
+            <li>
+                <span class="point"></span>
+                <p class="description">
+                    Art & Design studies
+                </p>
+                <span class="date">2013 - 2008</span>
+            </li>
+        </ol>
+
+    </div>
+
+    <br><br>
+
+    <footer class="container">
+        <span style="font-size: 16px; margin-top: ">Coded by <a href="https://newtodesign.com/">New to design </a>
+            Designed by <a
+                href="https://dribbble.com/shots/4342703-Minimal-resume-freebie-for-junior-self-taught-people">Nicolas
+                Meuzard</a></span>
+    </footer>
+
 </body>
 
 </html>
