@@ -457,7 +457,7 @@
             display: none;
         }
 
-        section .inner {
+        .inner {
             max-width: none;
         }
         
