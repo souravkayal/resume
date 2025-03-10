@@ -453,7 +453,7 @@
             display: block;
         }
 
-        div .inner {
+        .inner {
             width: 100%;
         }
 
