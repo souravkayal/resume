@@ -5,7 +5,6 @@
     <title>Minimal Resume Template</title>
     <link rel="stylesheet" type="text/css" href="/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <style>
         /*Load google font*/
         @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
@@ -386,7 +385,7 @@
             position: relative;
             display: inline-block;
             float: left;
-            width: 25%;
+            width: 20%;
             height: 50px;
         }
 
@@ -453,6 +452,10 @@
             display: block;
         }
 
+        div .inner {
+            width: 100%;
+        }
+
         #header_wrap {
             display: none;
         }
@@ -460,7 +463,7 @@
         .inner {
             max-width: none;
         }
-        
+
         /*timeline ends*/
 
         /* Media queries*/
@@ -562,13 +565,60 @@
 
     <div class="container">
         <div class="hero">
-            <h1 class="name"><strong>John</strong> Doe</h1>
-            <span class="job-title">Developer</span>
-            <span class="email">abbie.bradley@gmail.com</span>
+            <h1 class="name"><strong>Sourav</strong> Kayal</h1>
+            <span class="job-title">Senior Software Engineer</span>
+            <span class="email">sourav.kayal@yahoo.com</span>
 
-            <h2 class="lead">Development and design of web applications for startups and large companies</h2>
+            <h2 class="lead">Senior software engineer with 12+ experience in C# .NET Core, Python, LLM, OpenAI</h2>
         </div>
     </div>
+
+    <!-- Timeeline -->
+    <div class="container">
+        <ol class="timeline">
+            <li>
+                <p class="line">Experiences</p>
+                <span class="point"></span>
+                <p class="description">
+                    Honeywell
+                </p>
+                <span class="date">May, 2021 - Today</span>
+            </li>
+
+            <li>
+                <span class="point"></span>
+                <p class="description">
+                    JLL
+                </p>
+                <span class="date"> December, 2020 - May, 2021</span>
+            </li>
+
+            <li>
+                <span class="point"></span>
+                <p class="description">
+                    Walmart
+                </p>
+                <span class="date"> Aug, 2017 - December, 2020</span>
+            </li>
+
+            <li>
+                <span class="point"></span>
+                <p class="description">
+                    DELL-EMC
+                </p>
+                <span class="date">Aug, 2017 - December, 2020</span>
+            </li>
+            <li>
+                <span class="point"></span>
+                <p class="description">
+                    Timken
+                </p>
+                <span class="date">Mar, 2014 - Aug, 2015</span>
+            </li>
+        </ol>
+
+    </div>
+    </br>
 
     <!-- Skills and intrest section -->
     <div class="container">
@@ -577,153 +627,118 @@
             <h2 class="section-title">Skills</h2>
 
             <div class="list-card">
-                <span class="exp">+ 5 years</span>
+                <span class="exp">+ 12 years</span>
                 <div>
-                    <h3>Object programming & frameworks</h3>
-                    <span>PHP, Symfony, Laravel, Silex, …</span>
+                    <h3>Programming </h3>
+                    <span>C#, .NET 9, Python, Azure, SQL, NoSQL, Neo4J, Posgres</span>
                 </div>
             </div>
 
             <div class="list-card">
                 <span class="exp">+ 3 years</span>
                 <div>
-                    <h3>Design integration</h3>
-                    <span>Style and tools, JS Frameworks</span>
+                    <h3>Design & Architecture</h3>
+                    <span>Worked as design lead in various module <br />Ex. Industrial Knowledge Graph</span>
                 </div>
             </div>
 
             <div class="list-card">
-                <span class="exp">+ 6 years</span>
+                <span class="exp">+ 1 years</span>
                 <div>
-                    <h3>Linux</h3>
-                    <span>Scripting, Servers management and protocols, Automation</span>
+                    <h3>Leading a team</h3>
+                    <span>Leading team of a group of few developers</span>
                 </div>
             </div>
 
         </div>
+
         <div class="sections">
-            <h2 class="section-title">Interests</h2>
+            <h2 class="section-title">Interests and Learning</h2>
 
             <div class="list-card">
                 <div>
-                    <h3>Scripting languages</h3>
-                    <span>PHP, JS, Bash, Python</span>
+                    <h3>Generative AI</h3>
+                    <span>LLM exploration, OpenAI, Langchain, MlFlow, llamaIndex etc.</span>
                 </div>
             </div>
 
             <div class="list-card">
                 <div>
-                    <h3>Hacking</h3>
-                    <span>Linux, Crawlers, Bots, Network</span>
+                    <h3>Patient (in-progress)</h3>
+                    <span>Building Industrial Knowledge Graph</span> <br /><br />
+                    <span>Mapping multiple asset moldel in uniformed visualization</span>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Achievements -->
-
+    <br />
     <div class="container cards">
 
         <div class="card">
             <div class="skill-level">
                 <span>+</span>
-                <h2>60</h2>
+                <h2>5</h2>
             </div>
 
             <div class="skill-meta">
-                <h3>Projects</h3>
-                <span>Adapting and creating solutions for customer's needs</span>
+                <h3>Fortune companys</h3>
+                <span>I have worked for 5+ fortune companys and build applications which scale to millions of
+                    customers</span>
             </div>
         </div>
 
         <div class="card">
             <div class="skill-level">
-                <h2>50</h2>
-                <span>%</span>
+                <h2>11</h2>
             </div>
 
             <div class="skill-meta">
-                <h3>Web</h3>
-                <span>Applications development integrating third-party services and mobile client(s)</span>
+                <h3>projects</h3>
+                <span>Worked in 10+ projects using old to cutting edge stack across various sectiors including
+                    oil & gas, retail, manufacturing</span>
             </div>
         </div>
-
-        <div class="card">
-            <div class="skill-level">
-                <h2>30</h2>
-                <span>%</span>
-            </div>
-
-            <div class="skill-meta">
-                <h3>Technical solutions</h3>
-                <span>Such as web services, scripts, configurations</span>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="skill-level">
-                <h2>20</h2>
-                <span>%</span>
-            </div>
-
-            <div class="skill-meta">
-                <h3>Leading</h3>
-                <span>Web projects and ensure the quality of delivery</span>
-            </div>
-        </div>
-
     </div>
 
-    <!-- Timeeline -->
+
 
     <div class="container">
-        <ol class="timeline">
-            <li>
-                <p class="line">Experiences</p>
-                <span class="point"></span>
-                <p class="description">
-                    Lead Developer @Geronimo
-                </p>
-                <span class="date">Today - Apr. 2016</span>
-            </li>
+        <div class="sections">
+            <h2 class="section-title">A few books that helped me make better decisions</h2>
+            <div class="list-card">
+                <div>
+                    <h3>Programming and Leadership</h3>
+                    <span>C# in depth - John Kits</span><br />
+                    <span>Database Internals - Alex Petrov</span><br />
+                    <span>System design - Alex Xu </span><br />
+                    <span>The pragmetic programmer - Haunt Thomas </span><br />
+                </div>
+            </div>
 
-            <li>
-                <span class="point"></span>
-                <p class="description">
-                    Freelance
-                </p>
-                <span class="date">Apr. 2016 - Sep. 2015</span>
-            </li>
+            <div class="list-card">
+                <div>
+                    <h3>Self management</h3>
+                    <span>Atomic Habit - James Clear</span><br />
+                    <span>Re Work - Jason Fried & David Heinemeier Hansson</span><br />
+                </div>
+            </div>
 
-            <li>
-                <p class="line">Education</p>
-                <span class="point"></span>
-                <p class="description">
-                    DUT "Métiers du multimédia et de l'internet"
-                </p>
-                <span class="date">2015 - 2013</span>
-            </li>
-
-            <li>
-                <span class="point"></span>
-                <p class="description">
-                    Art & Design studies
-                </p>
-                <span class="date">2013 - 2008</span>
-            </li>
-        </ol>
-
+        </div>
     </div>
 
-    <br><br>
+    <br /><br /><br /><br /><br />
 
-    <footer class="container">
-        <span style="font-size: 16px; margin-top: ">Coded by <a href="https://newtodesign.com/">New to design </a>
-            Designed by <a
-                href="https://dribbble.com/shots/4342703-Minimal-resume-freebie-for-junior-self-taught-people">Nicolas
-                Meuzard</a></span>
-    </footer>
-
+    <div class="container">
+        <div class="sections">
+            <br /><br /><br />
+            <span style="font-size: 16px; margin-top: 20px;">Coded by <a href="https://newtodesign.com/">New to design
+                </a>
+                Draft by <a href="#">Surav Kayal</a></span>
+        </div>
+    </div>
 </body>
+
 
 </html>
