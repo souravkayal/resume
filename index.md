@@ -618,7 +618,7 @@
         </ol>
 
     </div>
-    </br>
+    <br/>
 
     <!-- Skills and intrest section -->
     <div class="container">
