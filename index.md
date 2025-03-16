@@ -577,7 +577,10 @@
             <span class="job-title">Senior Software Engineer</span>
             <span class="email">sourav.kayal@yahoo.com</span>
 
-            <h2 class="lead">Senior software engineer with 12+ experience in C# .NET Core, Python, LLM, OpenAI</h2>
+            <h2 class="lead">Senior software engineer with 12+ experience in C# .NET Core, Python, LLM, OpenAI and
+                <a href="https://github.com/souravkayal?tab=repositories">more</a>
+                !
+            </h2>
         </div>
     </div>
 
@@ -588,7 +591,7 @@
                 <p class="line">Experiences</p>
                 <span class="point"></span>
                 <p class="description">
-                    Honeywell
+                    <a href="https://www.honeywell.com/us/en" target="_blank">Honeywell</a>
                 </p>
                 <span class="date">May, 2021 - Today</span>
             </li>
@@ -596,7 +599,7 @@
             <li>
                 <span class="point"></span>
                 <p class="description">
-                    JLL
+                    <a href="https://www.us.jll.com/" target="_blank">JLL</a>
                 </p>
                 <span class="date"> December, 2020 - May, 2021</span>
             </li>
@@ -604,7 +607,7 @@
             <li>
                 <span class="point"></span>
                 <p class="description">
-                    Walmart
+                    <a href="https://www.walmart.com/" target="_blank">Walmart</a>
                 </p>
                 <span class="date"> Aug, 2017 - December, 2020</span>
             </li>
@@ -612,14 +615,14 @@
             <li>
                 <span class="point"></span>
                 <p class="description">
-                    DELL-EMC
+                    <a href="https://www.dell.com/en-in" target="_blank">DELL-EMC</a>
                 </p>
                 <span class="date">Aug, 2017 - December, 2020</span>
             </li>
             <li>
                 <span class="point"></span>
                 <p class="description">
-                    Timken
+                    <a href="https://www.timken.com/en-in/" target="_blank">Timken</a>
                 </p>
                 <span class="date">Mar, 2014 - Aug, 2015</span>
             </li>
@@ -660,18 +663,19 @@
         </div>
 
         <div class="sections">
-            <h2 class="section-title">Interests and Learning</h2>
+            <h2 class="section-title">Writings</h2>
 
             <div class="list-card">
                 <div>
-                    <h3>Generative AI</h3>
-                    <span>LLM exploration, OpenAI, Langchain, MlFlow, llamaIndex etc.</span>
+                    <h3><a href="https://medium.com/@ctrlcvprogrammer"> medium </a></h3>
+                    <h3><a href="https://www.csharp.com/members/sourav-kayal/articles-3"> c-sharpcorner.com</a></h3>
+                    <span></span>
                 </div>
             </div>
 
             <div class="list-card">
                 <div>
-                    <h3>Patent (in-progress)</h3>
+                    <h3>Patient (in-progress)</h3>
                     <span>Building Industrial Knowledge Graph</span> <br /><br />
                     <span>Mapping multiple asset moldel in uniformed visualization</span>
                 </div>
@@ -742,7 +746,7 @@
             <br /><br /><br />
             <span style="font-size: 16px; margin-top: 20px;">Coded by <a href="https://newtodesign.com/">New to design
                 </a>
-                Draft by <a href="#">Sourav Kayal</a></span>
+                Draft by <a href="#">Surav Kayal</a></span>
         </div>
     </div>
 </body>
