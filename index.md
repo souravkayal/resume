@@ -694,7 +694,7 @@
         <h2 class="section-title">Time distribution in my current role</h2>
         <div class="card" style="width: 70%;">
 
-            <img src=" "
+            <img src="./resource/time-distribution.png"
                 alt="Time distribution in my current role" style="width: 100%; height: auto; border-radius: 10px;">
 
             <div class="skill-meta">
