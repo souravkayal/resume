@@ -725,11 +725,10 @@
             <div class="list-card">
 
                 <div style="width: 100%;margin-bottom: 15px;">
-                    <h5></h5><a
-                        href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL"
-                        target="_blank">
-                        Academy Accreditation - Generative AI Fundamentals
-                    </a>
+                    <h5><a href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL"
+                            target="_blank">
+                            Academy Accreditation - Generative AI Fundamentals
+                        </a>
                     </h5>
                 </div>
 
