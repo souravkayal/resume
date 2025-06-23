@@ -650,7 +650,10 @@
                 <span class="exp">+ 3 years</span>
                 <div>
                     <h3>Design & Architecture</h3>
-                    <span>Worked as design lead in various module of product</span>
+                    <span>Worked as design lead in various module of product<br>
+                        <span>Industrial Knowledge graph</span>
+                        <span>Distributed transaction in microservices</span>
+                    </span>
                 </div>
             </div>
 
