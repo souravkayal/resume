@@ -669,8 +669,9 @@
 
             <div class="list-card">
                 <div>
-                    <h3><a href="https://medium.com/@ctrlcvprogrammer"> medium </a></h3>
-                    <h3><a href="https://www.csharp.com/members/sourav-kayal/articles-3"> c-sharpcorner.com</a></h3>
+                    <h3><a href="https://medium.com/@ctrlcvprogrammer" target="_blank"> @medium </a></h3>
+                    <h3><a href="https://www.csharp.com/members/sourav-kayal/articles-3" target="_blank">
+                            @c-sharpcorner.com</a></h3>
                     <span></span>
                 </div>
             </div>
@@ -704,6 +705,7 @@
 
         <div class="card">
             <div class="skill-level">
+                <span>+</span>
                 <h2>11</h2>
             </div>
 
@@ -716,48 +718,51 @@
     </div>
 
 
-    <div class="container">
-        <div class="sections" style="width: 100%;
-">
-            <h2 class="section-title">Few courses and learning I have completed recently</h2>
+    <div class="container" width="100%">
+        <div class="sections">
+            <h2 class="section-title">Few courses and learning, I have completed recently. </h2>
 
             <div class="list-card">
-                <div>
-                    <h3><a href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL">
-                            Academy Accreditation - Generative AI Fundamentals
-                        </a>
-                    </h3>
+
+                <div style="width: 100%;margin-bottom: 15px;">
+                    <a href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL"
+                        target="_blank">
+                        <h5>Academy Accreditation - Generative AI Fundamentals</h5>
+                    </a>
                 </div>
 
-                <div>
-                    <h3><a href="https://www.credly.com/badges/b7422961-71a1-4d06-bad9-13a240ff4035/linked_in_profile">
+                <div style="width: 100%;margin-bottom: 15px;">
+                    <h2><a href="https://www.credly.com/badges/b7422961-71a1-4d06-bad9-13a240ff4035/linked_in_profile"
+                            target="_blank">
                             Building AI-Powered Search with MongoDB Vector Search
                         </a>
-                    </h3>
+                    </h2>
                 </div>
 
-                <div>
-                    <h3><a href="https://www.credly.com/badges/c4ebd0a7-0d22-4f38-8388-f8b5325448a4/linked_in_profile">
+                <div style="width: 100%;margin-bottom: 15px;">
+                    <h2><a href="https://www.credly.com/badges/c4ebd0a7-0d22-4f38-8388-f8b5325448a4/linked_in_profile"
+                            target="_blank">
                             Building RAG Apps Using MongoDB
                         </a>
-                    </h3>
+                    </h2>
                 </div>
 
-                <div>
-                    <h3><a href="https://graphacademy.neo4j.com/c/10d0b8c2-4560-4c11-b087-703744478f70/">
+                <div style="width: 100%;margin-bottom: 15px;">
+                    <h2><a href="https://graphacademy.neo4j.com/c/10d0b8c2-4560-4c11-b087-703744478f70/"
+                            target="_blank">
                             Neo4j Certified Professional
                         </a>
-                    </h3>
+                    </h2>
                 </div>
 
             </div>
         </div>
     </div>
 
-
+    <br /><br /><br />
     <div class="container">
         <div class="sections">
-            <h2 class="section-title">A few books that helped me make better decisions</h2>
+            <h2 class="section-title">Books That Shaped My Thinking</h2>
             <div class="list-card">
                 <div>
                     <h3>Programming and Leadership</h3>
@@ -770,7 +775,7 @@
 
             <div class="list-card">
                 <div>
-                    <h3>Self management</h3>
+                    <h3>Self learning and growth mindset</h3>
                     <span>Atomic Habit - James Clear</span><br />
                     <span>Re Work - Jason Fried & David Heinemeier Hansson</span><br />
                 </div>
