@@ -642,7 +642,7 @@
                 <span class="exp">+ 12 years</span>
                 <div>
                     <h3>Programming & Tech</h3>
-                    <span>C#, .NET Core, Python, Azure, Multi model DB, PostgreSQL, GenAI / Agentic AI and more </span>
+                    <span>C#, .NET Core, Python, Azure, Multi model DB, PostgreSQL, GenAI, Agentic AI and more </span>
                 </div>
             </div>
 
@@ -655,13 +655,12 @@
             </div>
 
             <div class="list-card">
-                <span class="exp">+ 2 years</span>
+                <span class="exp">+ 1 years</span>
                 <div>
                     <h3>Leading a team</h3>
                     <span>Leading a core team of few developers. </span>
                 </div>
             </div>
-
         </div>
 
         <div class="sections">
