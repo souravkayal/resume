@@ -689,13 +689,7 @@
         </div>
     </div>
 
-    <br />
-    <div class="container">
-        <h2 class="section-title">Time distribution in my current role</h2>
-            <img src=https://github.com/souravkayal/resume/blob/main/resource/time-distribution.png"/>
-    </div>
-
-        <br /><br /><br /><br />
+        <br /><br />
         <!-- Achievements -->
         <br /> <br />
         <div class="container cards">
