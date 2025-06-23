@@ -576,7 +576,7 @@
             <h1 class="name"><strong>Sourav</strong> Kayal</h1>
             <span class="job-title">Lead Software Engineer</span>
             <span class="email">sourav.kayal@yahoo.com | <a
-                    href="https://www.linkedin.com/in/sourav-kayal-80597338/">Linked In</a></span>
+                    href="https://www.linkedin.com/in/sourav-kayal-80597338/">@LinkedIn</a></span>
 
             <h2 class="lead">Lead software engineer with 12+ experience in C# .NET Core, Python, LLM, OpenAI and
                 <a href="https://github.com/souravkayal?tab=repositories">more</a>
@@ -631,6 +631,7 @@
 
     </div>
     <br />
+
     <!-- Skills and intrest section -->
     <div class="container">
 
@@ -664,7 +665,7 @@
         </div>
 
         <div class="sections">
-            <h2 class="section-title">Writings</h2>
+            <h2 class="section-title">Writings and Publications</h2>
 
             <div class="list-card">
                 <div>
@@ -714,6 +715,19 @@
         </div>
     </div>
 
+
+    <div class="container">
+        <div class="sections">
+            <h2 class="section-title">Few courses and learning I have completed recently</h2>
+            <div class="list-card">
+                <div>
+                    <h3><a href="href="
+                            https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL"></a>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="container">
