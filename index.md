@@ -689,140 +689,132 @@
         </div>
     </div>
 
-
     <br />
     <div class="container cards">
         <h2 class="section-title">Time distribution in my current role</h2>
         <div class="card" style="width: 70%;">
-            <div style="
-                position: relative;
-                box-sizing: content-box;
-                height: 80vh;
-                width: 100%;
-            ">
-                <iframe src="https://chart-generator.draxlr.com/embed/hvVcsaEhv0iZGrSD65Pslt5VV9MOyIRK" loading="lazy"
-                    title="Time distribution of my recent role" frameborder="0" webkitallowfullscreen="true"
-                    mozallowfullscreen="true" style="
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                "></iframe>
-            </div>
-        </div>
-    </div>
 
-    <br />
-    <!-- Achievements -->
-    <br /> <br />
-    <div class="container cards">
-
-        <div class="card">
-            <div class="skill-level">
-                <span>+</span>
-                <h2>5</h2>
-            </div>
+            <img src=" "
+                alt="Time distribution in my current role" style="width: 100%; height: auto; border-radius: 10px;">
 
             <div class="skill-meta">
-                <h3>Fortune companys</h3>
-                <span>I have worked for 5+ fortune companys and build applications which scale to millions of
-                    customers</span>
+                <h3>Time distribution in my current role</h3>
+                <span>This is how I am spending my time in my current role. I am spending 50% of my time in design and
+                    architecture, 30% in coding and 20% in leading a team.</span>
             </div>
         </div>
 
-        <div class="card">
-            <div class="skill-level">
-                <span>+</span>
-                <h2>11</h2>
+        <br />
+        <!-- Achievements -->
+        <br /> <br />
+        <div class="container cards">
+
+            <div class="card">
+                <div class="skill-level">
+                    <span>+</span>
+                    <h2>5</h2>
+                </div>
+
+                <div class="skill-meta">
+                    <h3>Fortune companys</h3>
+                    <span>I have worked for 5+ fortune companys and build applications which scale to millions of
+                        customers</span>
+                </div>
             </div>
 
-            <div class="skill-meta">
-                <h3>projects</h3>
-                <span>Worked in 10+ projects using old to cutting edge stack across various sectiors including
-                    oil & gas, retail, manufacturing</span>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="container" width="100%">
-        <div class="sections">
-            <h2 class="section-title">Few courses and learning, I have completed recently. </h2>
-
-            <div class="list-card">
-
-                <div style="width: 100%;margin-bottom: 15px;">
-                    <h5><a href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL"
-                            target="_blank">
-                            Academy Accreditation - Generative AI Fundamentals
-                        </a>
-                    </h5>
+            <div class="card">
+                <div class="skill-level">
+                    <span>+</span>
+                    <h2>11</h2>
                 </div>
 
-                <div style="width: 100%;margin-bottom: 15px;">
-                    <h2><a href="https://www.credly.com/badges/b7422961-71a1-4d06-bad9-13a240ff4035/linked_in_profile"
-                            target="_blank">
-                            Building AI-Powered Search with MongoDB Vector Search
-                        </a>
-                    </h2>
+                <div class="skill-meta">
+                    <h3>projects</h3>
+                    <span>Worked in 10+ projects using old to cutting edge stack across various sectiors including
+                        oil & gas, retail, manufacturing</span>
                 </div>
-
-                <div style="width: 100%;margin-bottom: 15px;">
-                    <h2><a href="https://www.credly.com/badges/c4ebd0a7-0d22-4f38-8388-f8b5325448a4/linked_in_profile"
-                            target="_blank">
-                            Building RAG Apps Using MongoDB
-                        </a>
-                    </h2>
-                </div>
-
-                <div style="width: 100%;margin-bottom: 15px;">
-                    <h2><a href="https://graphacademy.neo4j.com/c/10d0b8c2-4560-4c11-b087-703744478f70/"
-                            target="_blank">
-                            Neo4j Certified Professional
-                        </a>
-                    </h2>
-                </div>
-
             </div>
         </div>
-    </div>
 
-    <br /><br /><br />
-    <div class="container">
-        <div class="sections">
-            <h2 class="section-title">Books That Shaped My Thinking</h2>
-            <div class="list-card">
-                <div>
-                    <h3>Programming and Leadership</h3>
-                    <span>C# in depth - John Kits</span><br />
-                    <span>Database Internals - Alex Petrov</span><br />
-                    <span>System design - Alex Xu </span><br />
-                    <span>The pragmetic programmer - Haunt Thomas </span><br />
+
+        <div class="container" width="100%">
+            <div class="sections">
+                <h2 class="section-title">Few courses and learning, I have completed recently. </h2>
+
+                <div class="list-card">
+
+                    <div style="width: 100%;margin-bottom: 15px;">
+                        <h5><a href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL"
+                                target="_blank">
+                                Academy Accreditation - Generative AI Fundamentals
+                            </a>
+                        </h5>
+                    </div>
+
+                    <div style="width: 100%;margin-bottom: 15px;">
+                        <h2><a href="https://www.credly.com/badges/b7422961-71a1-4d06-bad9-13a240ff4035/linked_in_profile"
+                                target="_blank">
+                                Building AI-Powered Search with MongoDB Vector Search
+                            </a>
+                        </h2>
+                    </div>
+
+                    <div style="width: 100%;margin-bottom: 15px;">
+                        <h2><a href="https://www.credly.com/badges/c4ebd0a7-0d22-4f38-8388-f8b5325448a4/linked_in_profile"
+                                target="_blank">
+                                Building RAG Apps Using MongoDB
+                            </a>
+                        </h2>
+                    </div>
+
+                    <div style="width: 100%;margin-bottom: 15px;">
+                        <h2><a href="https://graphacademy.neo4j.com/c/10d0b8c2-4560-4c11-b087-703744478f70/"
+                                target="_blank">
+                                Neo4j Certified Professional
+                            </a>
+                        </h2>
+                    </div>
+
                 </div>
             </div>
+        </div>
 
-            <div class="list-card">
-                <div>
-                    <h3>Self learning and growth mindset</h3>
-                    <span>Atomic Habit - James Clear</span><br />
-                    <span>Re Work - Jason Fried & David Heinemeier Hansson</span><br />
+        <br /><br /><br />
+        <div class="container">
+            <div class="sections">
+                <h2 class="section-title">Books That Shaped My Thinking</h2>
+                <div class="list-card">
+                    <div>
+                        <h3>Programming and Leadership</h3>
+                        <span>C# in depth - John Kits</span><br />
+                        <span>Database Internals - Alex Petrov</span><br />
+                        <span>System design - Alex Xu </span><br />
+                        <span>The pragmetic programmer - Haunt Thomas </span><br />
+                    </div>
                 </div>
+
+                <div class="list-card">
+                    <div>
+                        <h3>Self learning and growth mindset</h3>
+                        <span>Atomic Habit - James Clear</span><br />
+                        <span>Re Work - Jason Fried & David Heinemeier Hansson</span><br />
+                    </div>
+                </div>
+
             </div>
-
         </div>
-    </div>
 
-    <br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br />
 
-    <div class="container">
-        <div class="sections">
-            <br /><br /><br />
-            <span style="font-size: 16px; margin-top: 20px;">Coded by <a href="https://newtodesign.com/">New to design
-                </a>
-                Draft by <a href="#">Surav Kayal</a></span>
+        <div class="container">
+            <div class="sections">
+                <br /><br /><br />
+                <span style="font-size: 16px; margin-top: 20px;">Coded by <a href="https://newtodesign.com/">New to
+                        design
+                    </a>
+                    Draft by <a href="#">Surav Kayal</a></span>
+            </div>
         </div>
-    </div>
 </body>
 
 
