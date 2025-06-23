@@ -721,8 +721,8 @@
             <h2 class="section-title">Few courses and learning I have completed recently</h2>
             <div class="list-card">
                 <div>
-                    <h3><a href="href="
-                            https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL"></a>
+                    <h3><a
+                            href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL"></a>
                     </h3>
                 </div>
             </div>
