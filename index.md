@@ -574,10 +574,11 @@
     <div class="container">
         <div class="hero">
             <h1 class="name"><strong>Sourav</strong> Kayal</h1>
-            <span class="job-title">Senior Software Engineer</span>
-            <span class="email">sourav.kayal@yahoo.com</span>
+            <span class="job-title">Lead Software Engineer</span>
+            <span class="email">sourav.kayal@yahoo.com | <a
+                    href="https://www.linkedin.com/in/sourav-kayal-80597338/">Linked In</a></span>
 
-            <h2 class="lead">Senior software engineer with 12+ experience in C# .NET Core, Python, LLM, OpenAI and
+            <h2 class="lead">Lead software engineer with 12+ experience in C# .NET Core, Python, LLM, OpenAI and
                 <a href="https://github.com/souravkayal?tab=repositories">more</a>
                 !
             </h2>
