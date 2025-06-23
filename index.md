@@ -689,8 +689,15 @@
         </div>
     </div>
 
-     
-    
+    <br />
+    <div class="container">
+        <h2 class="section-title">Time distribution in my current role</h2>
+
+        <div style="width: 70%;">
+            ![Time Distribution](resource/time-distribution.png)
+        </div>
+    </div>
+
         <br />
         <!-- Achievements -->
         <br /> <br />
