@@ -578,7 +578,7 @@
             <span class="email">sourav.kayal@yahoo.com | <a
                     href="https://www.linkedin.com/in/sourav-kayal-80597338/">@LinkedIn</a></span>
 
-            <h2 class="lead">Lead software engineer with 12+ experience in C# .NET Core, Python, LLM, OpenAI and
+            <h2 class="lead">Lead software engineer with 12+ experience in C# .NET Core, Python, LLM, GenAI and
                 <a href="https://github.com/souravkayal?tab=repositories">more</a>
                 !
             </h2>
@@ -711,7 +711,7 @@
 
             <div class="skill-meta">
                 <h3>projects</h3>
-                <span>Worked in 10+ projects using old to cutting edge stack across various sectiors including
+                <span>Worked in 11+ projects using old to cutting edge stack across various sectiors including
                     oil & gas, retail, manufacturing</span>
             </div>
         </div>
@@ -720,7 +720,7 @@
 
     <div class="container" width="100%">
         <div class="sections">
-            <h2 class="section-title">Few courses and learning, I have completed recently. </h2>
+            <h2 class="section-title">Few certifications, I have completed recently.</h2>
 
             <div class="list-card">
 
