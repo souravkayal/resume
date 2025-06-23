@@ -578,7 +578,7 @@
             <span class="email">sourav.kayal@yahoo.com | <a
                     href="https://www.linkedin.com/in/sourav-kayal-80597338/">@LinkedIn</a></span>
 
-            <h2 class="lead">Lead software engineer with 12+ experience in C# .NET Core, Python, LLM, GenAI and
+            <h2 class="lead">Lead software engineer with 12+ experience in C# .NET Core, Python, LLM, OpenAI and
                 <a href="https://github.com/souravkayal?tab=repositories">more</a>
                 !
             </h2>
@@ -641,8 +641,8 @@
             <div class="list-card">
                 <span class="exp">+ 12 years</span>
                 <div>
-                    <h3>Programming & Tech</h3>
-                    <span>C#, .NET Core, Python, Azure, Multi model DB, PostgreSQL, GenAI, Agentic AI and more </span>
+                    <h3>Programming </h3>
+                    <span>C#, .NET 9, Python, Azure, SQL, NoSQL, Neo4J, Posgres</span>
                 </div>
             </div>
 
@@ -650,7 +650,7 @@
                 <span class="exp">+ 3 years</span>
                 <div>
                     <h3>Design & Architecture</h3>
-                    <span>Worked as design lead in various modules in multiple products.
+                    <span>Worked as design lead in various module <br />Ex. Industrial Knowledge Graph</span>
                 </div>
             </div>
 
@@ -658,9 +658,10 @@
                 <span class="exp">+ 1 years</span>
                 <div>
                     <h3>Leading a team</h3>
-                    <span>Leading a core team of few developers. </span>
+                    <span>Leading team of a group of few developers</span>
                 </div>
             </div>
+
         </div>
 
         <div class="sections">
@@ -710,7 +711,7 @@
 
             <div class="skill-meta">
                 <h3>projects</h3>
-                <span>Worked in 11+ projects using old to cutting edge stack across various sectiors including
+                <span>Worked in 10+ projects using old to cutting edge stack across various sectiors including
                     oil & gas, retail, manufacturing</span>
             </div>
         </div>
@@ -719,7 +720,7 @@
 
     <div class="container" width="100%">
         <div class="sections">
-            <h2 class="section-title">Few certifications, I have completed recently.</h2>
+            <h2 class="section-title">Few courses and learning, I have completed recently. </h2>
 
             <div class="list-card">
 
