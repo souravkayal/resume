@@ -717,16 +717,46 @@
 
 
     <div class="container">
-        <div class="sections">
+        <div class="sections" style="width: 100%;
+">
             <h2 class="section-title">Few courses and learning I have completed recently</h2>
+
             <div class="list-card">
                 <div>
-                     <h3><a href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL">
+                    <h3><a href="https://credentials.databricks.com/5b9cf798-baef-4ab3-854f-a8491836c67a#acc.FqYMnIyL">
                             Academy Accreditation - Generative AI Fundamentals
                         </a>
                     </h3>
                 </div>
             </div>
+
+            <div class="list-card">
+                <div>
+                    <h3><a href="https://www.credly.com/badges/b7422961-71a1-4d06-bad9-13a240ff4035/linked_in_profile">
+                            Building AI-Powered Search with MongoDB Vector Search
+                        </a>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="list-card">
+                <div>
+                    <h3><a href="https://www.credly.com/badges/c4ebd0a7-0d22-4f38-8388-f8b5325448a4/linked_in_profile">
+                            Building RAG Apps Using MongoDB
+                        </a>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="list-card">
+                <div>
+                    <h3><a href="https://graphacademy.neo4j.com/c/10d0b8c2-4560-4c11-b087-703744478f70/">
+                            Neo4j Certified Professional
+                        </a>
+                    </h3>
+                </div>
+            </div>
+
         </div>
     </div>
 
