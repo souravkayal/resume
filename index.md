@@ -697,7 +697,7 @@
             ![Time Distribution](resource/time-distribution.png)
             
         </div>
-
+    </div>
         <br />
         <!-- Achievements -->
         <br /> <br />
