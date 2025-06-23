@@ -692,8 +692,10 @@
     <br />
     <div class="container cards">
         <h2 class="section-title">Time distribution in my current role</h2>
-        <div style="width: 70%;">
+        <div class="card" style="width: 70%;">
+        
             ![Time Distribution](resource/time-distribution.png)
+            
         </div>
 
         <br />
