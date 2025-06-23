@@ -651,7 +651,7 @@
                 <div>
                     <h3>Design & Architecture</h3>
                     <span>Worked as design lead in various module of product<br>
-                        <span>Industrial Knowledge graph</span>
+                        <span>Industrial Knowledge graph</span><br>
                         <span>Distributed transaction in microservices</span>
                     </span>
                 </div>
@@ -689,8 +689,33 @@
         </div>
     </div>
 
-    <!-- Achievements -->
+
     <br />
+    <div class="container cards">
+        <h2 class="section-title">Time distribution in my current role</h2>
+        <div class="card" style="width: 70%;">
+            <div style="
+                position: relative;
+                box-sizing: content-box;
+                height: 80vh;
+                width: 100%;
+            ">
+                <iframe src="https://chart-generator.draxlr.com/embed/hvVcsaEhv0iZGrSD65Pslt5VV9MOyIRK" loading="lazy"
+                    title="Time distribution of my recent role" frameborder="0" webkitallowfullscreen="true"
+                    mozallowfullscreen="true" style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                "></iframe>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <!-- Achievements -->
+    <br /> <br />
     <div class="container cards">
 
         <div class="card">
