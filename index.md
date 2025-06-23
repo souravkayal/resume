@@ -641,8 +641,8 @@
             <div class="list-card">
                 <span class="exp">+ 12 years</span>
                 <div>
-                    <h3>Programming </h3>
-                    <span>C#, .NET 9, Python, Azure, SQL, NoSQL, Neo4J, Posgres</span>
+                    <h3>Programming and Tech</h3>
+                    <span>C#, .NET Core, Python, Azure, SQL, NoSQL, Neo4J, Postgres, GenAI, Agentic AI and more</span>
                 </div>
             </div>
 
@@ -650,15 +650,15 @@
                 <span class="exp">+ 3 years</span>
                 <div>
                     <h3>Design & Architecture</h3>
-                    <span>Worked as design lead in various module <br />Ex. Industrial Knowledge Graph</span>
+                    <span>Worked as design lead in various module of product</span>
                 </div>
             </div>
 
             <div class="list-card">
-                <span class="exp">+ 1 years</span>
+                <span class="exp">+ 2 years</span>
                 <div>
                     <h3>Leading a team</h3>
-                    <span>Leading team of a group of few developers</span>
+                    <span>Leading a small team of few developers. </span>
                 </div>
             </div>
 
