@@ -694,14 +694,8 @@
         <h2 class="section-title">Time distribution in my current role</h2>
         <div class="card" style="width: 70%;">
 
-            <img src="./resource/time-distribution.png"
-                alt="Time distribution in my current role" style="width: 100%; height: auto; border-radius: 10px;">
-
-            <div class="skill-meta">
-                <h3>Time distribution in my current role</h3>
-                <span>This is how I am spending my time in my current role. I am spending 50% of my time in design and
-                    architecture, 30% in coding and 20% in leading a team.</span>
-            </div>
+            ![Time Distribution](resource/time-distribution.png)
+            
         </div>
 
         <br />
